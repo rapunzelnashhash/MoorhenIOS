@@ -1,0 +1,10 @@
+{
+    "name" : "MoorhenIOS",
+    "description" : "Test Moorhen on iOS",
+    "version" : "1.0.0",
+    "scripts" : {
+        "build" : "cp -r src/* dist/"
+    },
+    "author" : "Stuart McNicholas <stuartmcnicholas@googlemail.com>",
+    "licence" : "ICL"
+}

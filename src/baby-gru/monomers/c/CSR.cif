@@ -1,0 +1,170 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+CSR CSR S-ARSONOCYSTEINE peptide 19 11 .
+
+data_comp_CSR
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+CSR N   N  NT3 1  2.429  1.659  1.062
+CSR CA  C  CH1 0  1.957  0.377  0.474
+CSR CB  C  CH2 0  1.274  0.617  -0.859
+CSR SG  S  S2  0  -0.336 1.417  -0.732
+CSR AS  AS AS  0  -1.856 -0.086 -0.213
+CSR O1  O  OH1 0  -1.535 -0.690 1.338
+CSR O2  O  OH1 0  -3.367 0.679  -0.104
+CSR O3  O  O   0  -1.856 -1.247 -1.330
+CSR C   C  C   0  3.142  -0.596 0.343
+CSR O   O  O   0  4.184  -0.158 -0.193
+CSR OXT O  OC  -1 2.977  -1.757 0.781
+CSR H   H  H   0  3.060  2.026  0.531
+CSR H2  H  H   0  2.780  1.511  1.880
+CSR H3  H  H   0  1.737  2.233  1.137
+CSR HA  H  H   0  1.296  -0.018 1.098
+CSR HB2 H  H   0  1.159  -0.243 -1.316
+CSR HB3 H  H   0  1.857  1.175  -1.416
+CSR HO1 H  H   0  -0.470 -0.832 1.453
+CSR HO2 H  H   0  -3.846 -0.240 0.548
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.aromatic
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+CSR N  CA  SINGLE n 1.487 0.0100 1.487 0.0100
+CSR CA CB  SINGLE n 1.516 0.0152 1.516 0.0152
+CSR CA C   SINGLE n 1.538 0.0113 1.538 0.0113
+CSR CB SG  SINGLE n 1.803 0.0125 1.803 0.0125
+CSR SG AS  SINGLE n 2.200 0.0200 2.200 0.0200
+CSR AS O1  SINGLE n 1.696 0.0200 1.696 0.0200
+CSR AS O2  SINGLE n 1.696 0.0200 1.696 0.0200
+CSR AS O3  DOUBLE n 1.612 0.0200 1.612 0.0200
+CSR C  O   DOUBLE n 1.251 0.0183 1.251 0.0183
+CSR C  OXT SINGLE n 1.251 0.0183 1.251 0.0183
+CSR N  H   SINGLE n 1.036 0.0160 0.902 0.0102
+CSR N  H2  SINGLE n 1.036 0.0160 0.902 0.0102
+CSR N  H3  SINGLE n 1.036 0.0160 0.902 0.0102
+CSR CA HA  SINGLE n 1.089 0.0100 0.991 0.0200
+CSR CB HB2 SINGLE n 1.089 0.0100 0.980 0.0104
+CSR CB HB3 SINGLE n 1.089 0.0100 0.980 0.0104
+CSR O1 HO1 SINGLE n 0.970 0.0120 0.846 0.0200
+CSR O2 HO2 SINGLE n 0.970 0.0120 0.846 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+CSR CA  N  H   109.684 2.12
+CSR CA  N  H2  109.684 2.12
+CSR CA  N  H3  109.684 2.12
+CSR H   N  H2  109.032 3.00
+CSR H   N  H3  109.032 3.00
+CSR H2  N  H3  109.032 3.00
+CSR N   CA CB  110.808 1.50
+CSR N   CA C   109.504 1.50
+CSR N   CA HA  107.886 1.50
+CSR CB  CA C   111.336 3.00
+CSR CB  CA HA  108.418 1.85
+CSR C   CA HA  108.362 1.50
+CSR CA  CB SG  114.696 3.00
+CSR CA  CB HB2 108.858 1.50
+CSR CA  CB HB3 108.858 1.50
+CSR SG  CB HB2 108.669 1.58
+CSR SG  CB HB3 108.669 1.58
+CSR HB2 CB HB3 107.951 2.75
+CSR CB  SG AS  109.471 3.00
+CSR SG  AS O1  109.471 3.00
+CSR SG  AS O2  109.471 3.00
+CSR SG  AS O3  109.471 3.00
+CSR O1  AS O2  106.411 3.00
+CSR O1  AS O3  112.384 3.00
+CSR O2  AS O3  112.384 3.00
+CSR AS  O1 HO1 112.462 3.00
+CSR AS  O2 HO2 112.462 3.00
+CSR CA  C  O   117.126 1.50
+CSR CA  C  OXT 117.126 1.50
+CSR O   C  OXT 125.747 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+CSR chi1       N  CA CB SG  -60.000 10.0 3
+CSR sp3_sp3_25 O3 AS O1 HO1 180.000 10.0 3
+CSR sp3_sp3_28 SG AS O2 HO2 180.000 10.0 3
+CSR sp3_sp3_22 O1 AS SG CB  180.000 10.0 3
+CSR sp3_sp3_1  CB CA N  H   180.000 10.0 3
+CSR sp3_sp3_19 CA CB SG AS  180.000 10.0 3
+CSR sp2_sp3_1  O  C  CA N   0.000   10.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+CSR chir_1 CA N  CB C  negative
+CSR chir_2 AS SG O3 O1 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+CSR plan-1 C   0.020
+CSR plan-1 CA  0.020
+CSR plan-1 O   0.020
+CSR plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+CSR SMILES           ACDLabs              10.04 "O=C(O)C(N)CS[As](=O)(O)O"
+CSR SMILES_CANONICAL CACTVS               3.341 "N[C@@H](CS[As](O)(O)=O)C(O)=O"
+CSR SMILES           CACTVS               3.341 "N[CH](CS[As](O)(O)=O)C(O)=O"
+CSR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C([C@@H](C(=O)O)N)S[As](=O)(O)O"
+CSR SMILES           "OpenEye OEToolkits" 1.5.0 "C(C(C(=O)O)N)S[As](=O)(O)O"
+CSR InChI            InChI                1.03  "InChI=1S/C3H8AsNO5S/c5-2(3(6)7)1-11-4(8,9)10/h2H,1,5H2,(H,6,7)(H2,8,9,10)/t2-/m0/s1"
+CSR InChIKey         InChI                1.03  XSWAJYRRDHPZDP-REOHCLBHSA-N
+
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+CSR acedrg          271       "dictionary generator"
+CSR acedrg_database 12        "data source"
+CSR rdkit           2019.09.1 "Chemoinformatics tool"
+CSR refmac5         5.8.0405  "optimization tool"
